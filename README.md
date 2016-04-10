@@ -1,27 +1,19 @@
 # `ES6`学习示例
 
-> 配套课程教材请前往：http://guoyongfeng.github.io/idoc
+> 配套内容讲义请前往：http://guoyongfeng.github.io/idoc
 
-## 如何使用
+## 1.How To Use
 
-### 下载
 ```
+# 下载
 $ git clone git@github.com:GuoYongfeng/es6-demo.git
-```
-
-## 安装依赖
-```
+# 安装依赖
 $ cd es6-demo && npm install
-```
-
-## 启动
-```
+# 启动
 $ npm run dev
 ```
 
-## 示例说明
-
-以下为示例的简要说明
+## 2.Tabel Of Content
 
 ### demo1：let-and-const
 
@@ -72,6 +64,8 @@ generators
 - import
 - export
 
-## LICENSE
+## 3.LICENSE
 
-MIT
+The MIT License (MIT)
+
+Copyright (c) 2016 GuoYongfeng
