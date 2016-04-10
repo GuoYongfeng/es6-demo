@@ -1,2 +1,9 @@
-# ES6-full-samples
-ES6 学习示例demo
+# `ES6`学习示例
+
+## demo1：块级作用域
+
+let 和 const 出现解决了哪些问题
+
+## demo2：解构
+
+对象、数组的解构赋值

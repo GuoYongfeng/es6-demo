@@ -11,13 +11,16 @@ var reload = browserSync.reload;
 
 // babel编译源文件
 gulp.task('babel', function() {
-  return gulp.src('**/*.js')
-    .pipe(plumber())
+  return gulp.src(['**/*.js', '!node_modules', '!gulpfile.js'])
+    // .pipe(plumber())
     .pipe(babel())
-    .pipe(notify("<%= file.relative %>文件出现错误：<%= file.message %>"))
-    .pipe(rename(function(path){
-      path.dirname += '';
+    // .pipe(notify("<%= file.relative %>文件出现错误：<%= file.message %>"))
+    .pipe(rename(function (path) {
+      path.dirname += "";
+      path.basename += ".compiled";
+      path.extname = ".js";
       console.log(path)
+      return path;
     }))
     .pipe(gulp.dest("./"));
 });
