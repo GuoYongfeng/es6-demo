@@ -36,27 +36,30 @@ $ npm run dev
 
 字符串模板
 
-### demo4：function-relative
+### demo4：arrow-function
 
-- 函数的默认值
-- Arrow function 箭头函数
-- spread 展开操作符
-- rest 剩余操作符
-- 对传参的解构
+箭头函数以及函数传参的默认值
 
-### demo5：object-relative
+### demo5：spread
+
+spread 展开操作符
+
+### demo6：rest
+
+rest 剩余操作符
+
+### demo7：object
 
 - Object.is()
 - Object.assign()
 - super
 - __proto__
 
-### demo6：iterator-and-generator
+### demo8：generator
 
-- iterators
-- generators
+generators
 
-### demo7：class
+### demo9：class
 
 - class
 - get
@@ -64,12 +67,7 @@ $ npm run dev
 - static
 - extends
 
-### demo8：set-and-map
-
-- set
-- map
-
-### demo9：modules
+### demo10：modules
 
 - import
 - export
