@@ -4,7 +4,8 @@
   "description": "Full Sample For Learning ES6",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/gulp"
   },
   "repository": {
     "type": "git",
@@ -28,7 +29,6 @@
     "browser-sync": "^2.11.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2"
   }
