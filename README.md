@@ -23,20 +23,20 @@ $ npm run dev
 
 以下为示例的简要说明
 
-### demo1-let-and-const
+### demo1：let-and-const
 
 - let块级作用域
 - const恒量定义
 
-### demo2-destructuring
+### demo2：destructuring
 
 对象、数组的解构赋值
 
-### demo3-template-string
+### demo3：template-string
 
 字符串模板
 
-### demo4-function-relative
+### demo4：function-relative
 
 - 函数的默认值
 - Arrow function 箭头函数
@@ -44,19 +44,19 @@ $ npm run dev
 - rest 剩余操作符
 - 对传参的解构
 
-### demo5-object-relative
+### demo5：object-relative
 
 - Object.is()
 - Object.assign()
 - super
 - __proto__
 
-### demo6-iterator-and-generator
+### demo6：iterator-and-generator
 
 - iterators
 - generators
 
-### demo7-class
+### demo7：class
 
 - class
 - get
@@ -64,12 +64,12 @@ $ npm run dev
 - static
 - extends
 
-### demo8-set-and-map
+### demo8：set-and-map
 
 - set
 - map
 
-### demo9-modules
+### demo9：modules
 
 - import
 - export
