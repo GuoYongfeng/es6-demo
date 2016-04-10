@@ -18,8 +18,6 @@ gulp.task('babel', function() {
     .pipe(gulp.dest("./examples"));
 });
 
-gulp.task('js-watch', ['babel'], reload);
-
 gulp.task('serve', ['babel'], function() {
   browserSync.init({
       server: {
@@ -27,7 +25,7 @@ gulp.task('serve', ['babel'], function() {
       }
   });
 
-  gulp.watch("examples/**/*.js", ['js-watch']);
+  gulp.watch("examples/**/*.js", ['babel']);
   gulp.watch("examples/**/*.html").on('change', reload);
 });
 
