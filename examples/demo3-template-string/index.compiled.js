@@ -1,5 +1,12 @@
 'use strict';
 
-var a = 'string value';
+var name = '信';
+var word = '我是歌手：\n\n  是' + name + '.';
 
-alert('你现在看到的是' + a);
+console.log(word);
+
+console.log(word.startWith('我'));
+
+console.log(word.endWith('.'));
+
+console.log(word.includes('是'));

@@ -1,17 +1,17 @@
 "use strict";
 
-// demo 1
+console.log(n);
+
 function f1() {
   var n = 5;
   if (true) {
     var _n = 10;
   }
-  console.log(n); // 5
+  console.log(n);
 }
 
-// demo 2
 var PI = 3.1415;
-console.log(PI); // 3.1415
+console.log(PI);
 
 // PI = 3;
-// console.log(PI); // TypeError: "PI" is read-only
+// console.log(PI);
